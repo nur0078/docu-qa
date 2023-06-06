@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    background-color: #F8F6F4;
+  }
+  
+  .container {
+  /*   background: #F8F6F4; */
+    margin-left: 500px;
+    margin-right: 400px;
+  }
+  
+  .heading {
+    color: black;
+    padding: 50px;
+  
+  }
+  
+
+  .input--file {
+    padding: 50px;
+  }
+  
+  .query {
+    padding: 50px;
+  
+  }
+
+  .description {
+    padding: 10px;
+  }
+  .answer-style {
+    color: #4F709C;
+    font-size: 18px;
+    border: 2px solid black;
+    padding: 50px;
+    
+
+}

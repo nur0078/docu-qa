@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ask your file</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1 class="heading">Talk to your file</h1>
+    <div class="input--file">
+      <input type="file" id="documentUpload" accept=".txt">
+    </div>
+    <div class="query">
+      <b class="description">Your question:</b>
+
+      <textarea class="input--text" id="questionInput" placeholder="Enter your question" rows="2"></textarea>
+      <button className = "btn-submit" onclick="submitQuestion()">Submit</button>
+    </div>
+    <div id="answerDisplay" class="answer-style">Your answer will be here.</div>
+  </div>
+
+  <script src="{{ url_for('static', filename='index.js') }}"></script>
+</body>
+</html>
